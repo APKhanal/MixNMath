@@ -6,9 +6,17 @@ body {
     align-items: center;
     background-color: #333;
     font-family: 'Lexend', sans-serif;
-    color: white;
+    color: #c2ff9a;
 }
-
+.title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+    color: #c2ff9a;
+    font-size:2cm;
+}
 .game-container {
     background-color: #222;
     padding: 20px;
@@ -72,6 +80,11 @@ body {
     margin-right:250px;
     font-size: xx-large;
 }
+.input-display:hover {
+ border-style: solid;
+ transition: 0.1s;
+ border-color: rgb(240, 255, 108);
+}
 
 .buttons-container {
     display: flex;
@@ -95,26 +108,38 @@ body {
     transition: 0.5s;
     font-family: 'Lexend', sans-serif;
     font: bold;
+    filter: drop-shadow(-5px 0px 0px #494949);
+}
+
+.button:focus {
+    transition: 0.5s;
+    font-family: 'Lexend', sans-serif;
+    font: bold;
+    animation: pulse;
+    animation-duration: 0.5s;
 }
 
 .submit-button{
 
-    background-color: #C5FFB7;
+    background-color: #68AE6F;
     font-family: 'Lexend', sans-serif;
     filter: drop-shadow(-5px 0px 0px #48804E);
     font-weight: 800;
+    color: #FFFFFF;
 }
 
 .clear-button{
-    background-color: #E5ABAB;
+    background-color: #ff8f8f;
     font-family: 'Lexend', sans-serif;
     font-weight: 800;
+    color: #FFFFFF;
     filter: drop-shadow(-5px 0px 0px #8F4949);
 }
 .backspace{
-    background-color: #a8a8a8;
+    background-color: #808080;
     font-family: 'Lexend', sans-serif;
     font-weight: 800;
+    color: #FFFFFF;
     filter: drop-shadow(-5px 0px 0px #505050);
 }
 #my{
@@ -123,11 +148,11 @@ body {
 
 .number{
     background-color: #B499FF;
-    width: 50px;
+    width: 60px;
     color: #FFFFFF;
     font-family: 'Lexend', sans-serif;
     font-weight: 800;
-    font-size: large;
+    font-size: x-large;
     filter: drop-shadow(-5px 0px 0px #7B758A);
 }
 .operator{
