@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #333;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lexend', sans-serif;
     color: white;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #basic {
-    background-color: #4CAF50; /* Green */
+    background-color: #68AE6F; /* Green */
 }
 
 #medium {
@@ -73,23 +73,36 @@ body {
     margin: 5px;
     border: none;
     border-radius: 5px;
+    font-family: 'Lexend', sans-serif;
+    font: bold;
 
 }
 
 .button:hover {
     background-color:#ADD8E6;
     transition: 0.5s;
+    font-family: 'Lexend', sans-serif;
+    font: bold;
 }
 
 .submit-button{
 
-    background-color: #4CAF50;
+    background-color: #C5FFB7;
+    font-family: 'Lexend', sans-serif;
+    font: bold;
 }
 
 .clear-button{
-    background-color: red;
+    background-color: #E5ABAB;
+    font-family: 'Lexend', sans-serif;
+    font: bold;
 }
 
 #my{
     zoom: 300%;
     }
+
+.number{
+    font-family: 'Lexend', sans-serif;
+    font: bold;
+}
